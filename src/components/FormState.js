@@ -31,7 +31,7 @@ const FormState = () => {
   return (
       <Card>
         <h1>Form State</h1>
-        <form id="form-state-link" onSubmit={(e) => handleSubmit(e)}>
+        <form id="info-form" onSubmit={(e) => handleSubmit(e)}>
           <div>
             <label htmlFor="full_name">Full Name </label>
             <input type="text" id="full_name" value={formData.full_name} onChange={(e) => handleChange(e)}/>
